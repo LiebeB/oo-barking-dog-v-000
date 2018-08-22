@@ -2,20 +2,20 @@
 
 class Dog
 
-  def initialize(name) # initialize the method
-    @name = name
-  end
-  #
-  # def name=(name) # writing the method
+  # def initialize(name) # initialize the method
   #   @name = name
   # end
-  #
-  # def name # reading the method
-  #   @name
-  # end
-  #
-  # def bark
-	# 	puts "Woof!"
-	# end
-  #
+  # 
+  def name=(name) # writing the method
+    @name = name
+  end
+  
+  def name # reading the method
+    @name
+  end
+  
+  def bark
+		puts "Woof!"
+	end
+  
 end
